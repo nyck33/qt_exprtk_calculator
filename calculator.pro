@@ -26,11 +26,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         calculator.cpp\
-        tinyexpr.c
+        exprtk.hpp \
+    sci_calculator.cpp
 
 HEADERS += \
-        calculator.h\
-        tinyexpr.h
+        calculator.h \
+    sci_calculator.h
 
 
 FORMS += \

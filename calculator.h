@@ -19,7 +19,7 @@ namespace Ui {
 class Calculator;
 }
 
-class Calculator : public QWidget{ //public QMainWindow
+class Calculator : public QWidget{
     Q_OBJECT  //base class of all QT objects, also for event handling
 
 public:
@@ -28,32 +28,26 @@ public:
     ~Calculator();
 
 //execute slots when signal submitted
-private slots:
+protected slots:
     //misc ops
     void enterClicked();
     void clear();
     void backspaceClicked();
     void showDisplay(QString op_string);
-    //memory
-    void setMemory();
-    void clearMemory();
-    void readMemory();
+    virtual void unaryOperatorClicked();
     //arithmetic basic
     void digitClicked();
-    void decPtClicked();
-    void additiveOperatorClicked();
-    void multiplicativeOperatorClicked();
+    void addMultOperatorClicked();
     void changeSignClicked();
-    //bedmas
-    void leftBrackClicked();
-    void rightBrackClicked();
     //calls imported library to calculate currOpQ
     void calcAns();
     //translate to qstring for output
     void sendAnsTolineEdit();
+    //pure virtual to be implemented in derived classes
+    virtual void piClicked() = 0;
 
-
-private:
+//private:
+protected:
     //pointer to Calculator ui
     Ui::Calculator *ui;
     //vars
@@ -68,16 +62,8 @@ private:
     int defErrorMsgLen = defErrorMsg.size();
     //changes each time
     QString errorMsg;
-    std::string currOpStd;
     //translate back to qstring for output
     QString outputQ;
-
-    //true when memory holds value
-    bool memoryTrigger = false;
-    //inputs appended to memVal
-    bool onMemScreen = false;
-    //RM pushed -> operand
-    bool rmTrigger = false;
     //sign change extra brackets
     bool changeSignTrigger = false;
     //ans is on screen

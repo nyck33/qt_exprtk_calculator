@@ -4,6 +4,7 @@
 //#include "tinyexpr.h"
 //}
 #include "calculator.h"
+#include "sci_calculator.h"
 #include <QApplication>
 
 #include <vector>
@@ -14,7 +15,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Calculator w;
+    Sci_calculator w;
     w.show();
 
     return a.exec();

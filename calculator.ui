@@ -150,7 +150,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="3" column="3">
-    <widget class="QPushButton" name="ButtonPow">
+    <widget class="QPushButton" name="ButtonSquare">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
@@ -172,7 +172,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>pow</string>
+      <string>^2</string>
      </property>
     </widget>
    </item>
@@ -231,7 +231,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="6" column="1">
-    <widget class="QPushButton" name="ButtonMemMinus">
+    <widget class="QPushButton" name="ButtonAcos">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
@@ -253,7 +253,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>M-</string>
+      <string>acos</string>
      </property>
     </widget>
    </item>
@@ -393,7 +393,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="6" column="4">
-    <widget class="QPushButton" name="ButtonInverse">
+    <widget class="QPushButton" name="ButtonLogn">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -409,7 +409,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>inverse</string>
+      <string>logn</string>
      </property>
     </widget>
    </item>
@@ -483,7 +483,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="6" column="2">
-    <widget class="QPushButton" name="ButtonMemRecall">
+    <widget class="QPushButton" name="ButtonAtan">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
@@ -505,7 +505,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>RM</string>
+      <string>atan</string>
      </property>
     </widget>
    </item>
@@ -531,7 +531,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="5" column="4">
-    <widget class="QPushButton" name="ButtonMod">
+    <widget class="QPushButton" name="ButtonPow">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -547,12 +547,12 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>modulo</string>
+      <string>pow</string>
      </property>
     </widget>
    </item>
    <item row="7" column="1">
-    <widget class="QPushButton" name="ButtonDeg">
+    <widget class="QPushButton" name="ButtonR2D">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -568,12 +568,12 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>degrees</string>
+      <string>rad2deg</string>
      </property>
     </widget>
    </item>
    <item row="7" column="0">
-    <widget class="QPushButton" name="ButtonRad">
+    <widget class="QPushButton" name="ButtonD2R">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -589,7 +589,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>radians</string>
+      <string>deg2rad</string>
      </property>
     </widget>
    </item>
@@ -636,7 +636,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="4" column="4">
-    <widget class="QPushButton" name="ButtonDec">
+    <widget class="QPushButton" name="ButtonMul">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -652,12 +652,12 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>dec</string>
+      <string>mul</string>
      </property>
     </widget>
    </item>
    <item row="7" column="2">
-    <widget class="QPushButton" name="ButtonChangeSign">
+    <widget class="QPushButton" name="ButtonAtan2">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -673,12 +673,12 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>matrix</string>
+      <string>atan2</string>
      </property>
     </widget>
    </item>
    <item row="3" column="4">
-    <widget class="QPushButton" name="ButtonHex">
+    <widget class="QPushButton" name="ButtonAvg">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -694,7 +694,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>hex</string>
+      <string>avg</string>
      </property>
     </widget>
    </item>
@@ -720,7 +720,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="7" column="3">
-    <widget class="QPushButton" name="ButtonEuler">
+    <widget class="QPushButton" name="ButtonExp">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -736,12 +736,12 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>euler</string>
+      <string>exp</string>
      </property>
     </widget>
    </item>
    <item row="2" column="4">
-    <widget class="QPushButton" name="ButtonBin">
+    <widget class="QPushButton" name="ButtonComma">
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color: #C0C0C0;
@@ -757,7 +757,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>binary</string>
+      <string>,</string>
      </property>
     </widget>
    </item>
@@ -924,7 +924,7 @@ QPushButton:pressed{
     </widget>
    </item>
    <item row="6" column="3">
-    <widget class="QPushButton" name="ButtonBase">
+    <widget class="QPushButton" name="ButtonModulo">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
@@ -946,12 +946,12 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>base</string>
+      <string>%</string>
      </property>
     </widget>
    </item>
    <item row="6" column="0">
-    <widget class="QPushButton" name="ButtonMemPlus">
+    <widget class="QPushButton" name="ButtonAsin">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
@@ -973,7 +973,7 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>M+</string>
+      <string>asin</string>
      </property>
     </widget>
    </item>
