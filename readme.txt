@@ -1,6 +1,6 @@
 readme.txt
 
-This is a simple GUI calculator made in Qt Creator 5 using the ExprTk library (C++ Mathematical Expression Library) found here: http://www.partow.net/programming/exprtk/index.html
+#This is a simple GUI calculator made in Qt Creator 5 using the ExprTk library (C++ Mathematical Expression Library) found here: http://www.partow.net/programming/exprtk/index.html
 
 It can be compiled in Qt Creator using qmake.
 
