@@ -2,7 +2,7 @@
 
 It can be compiled in Qt Creator using qmake.
 
-Basic instructions:
+# Basic instructions:
 
 Use the keypad to type in a valid math expression and push "=" to evaluate it.
 
